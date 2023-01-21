@@ -21,3 +21,9 @@ function capitalize(input4) {
   return  (input4.charAt(0)).toUpperCase().concat((input4.slice(1, input4.length)).toLowerCase())
 }
 console.log(capitalize("JoRdAn"))
+
+// Last Letter of String
+function lastLetter(input5) {
+  return (input5.charAt(input5.length-1))
+}
+console.log(lastLetter("Jordan"))
